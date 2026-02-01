@@ -1,0 +1,26 @@
+numpy
+pandas
+torch
+scikit-learn
+fastapi
+uvicorn
+networkx
+
+
+
+#pip install -r requirements.txt
+# Generate synthetic dataset 
+#python data/generate_synthetic.py
+# Train models
+
+#python -m training.train_dcrnn
+#python -m training.train_stgcn
+#python -m training.train_graph_wavenet
+# Evaluate
+#python -m evaluation.evaluate_models
+# Deploy
+
+
+#pip install uvicorn
+
+#python -m uvicorn deployment.app:app --reload
